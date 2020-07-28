@@ -6,12 +6,14 @@ var app = express();
 app.get('/', function(req, res) {
   res.send({
     "Output": "Hello  get World!"
+
   });
 });
 
 app.post('/', function(req, res) {
   res.send({
     "Output": "Hello  post World!"
+
   });
 });
 
